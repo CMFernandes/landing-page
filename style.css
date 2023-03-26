@@ -8,12 +8,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #f9faf8;
 }
 
 ul {
@@ -24,7 +26,49 @@ ul {
     gap: 16px
 }
 
-.header-links {
+.header-links{
     text-decoration: none;
     color: white;
+}
+
+
+.hero-container{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8
+}
+
+.hero-sub-text {
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 10px 20px;
+    flex-basis: 0;
+    height: 40px;
+    width: 100px;
+
+}
+.hero-img-container {
+    margin-left: 20px;
+}
+.hero-img {
+    width: 350px;
+    height: 200px;
 }
