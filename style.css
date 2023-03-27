@@ -92,18 +92,19 @@ h1 {
 .full-card {
     font-size: 18px;
     width: 160px;
-}
-
-.main-content {
     display: flex;
     flex-direction: column;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 20px;
 }
+
+
 
 .first-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    
 }
 .info-text {
     font-size: 36px;
@@ -112,9 +113,38 @@ h1 {
 }
 .card-container {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
 
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
     
+   
+
+}
+
+.quote, 
+.quote-author {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: 200;
+    color: #1F2937;
+    width: 800px;
+}
+
+.quote{
+    padding-top: 100px;
+}
+.quote-author {
+    align-items: flex-end;
+    padding-bottom: 100px;
+
 
 }
