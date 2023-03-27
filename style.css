@@ -2,7 +2,7 @@ body {
     font-family: roboto, sans-serif;
 }
 
-
+/* header-start*/
 .header {
     background-color:   #1F2937 ;
     display: flex;
@@ -31,6 +31,10 @@ ul {
     color: white;
 }
 
+/* header-end*/
+
+
+/* hero-start*/
 
 .hero-container{
     background-color: #1F2937;
@@ -72,4 +76,45 @@ h1 {
 .hero-img {
     width: 350px;
     height: 200px;
+}
+
+/* hero-end*/
+
+/*main-content-start*/
+
+.card{
+   height: 160px; 
+   width: 160px;
+   border: 2px solid  #3882F6;
+   border-radius: 10px;
+}
+
+.full-card {
+    font-size: 18px;
+    width: 160px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+}
+.info-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+
+    
+    
+
 }
