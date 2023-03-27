@@ -36,7 +36,8 @@ ul {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 80px;
+    align-items: center;
+    padding: 15px 80px 80px 80px;
 }
 
 .hero-content{
