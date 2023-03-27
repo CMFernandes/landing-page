@@ -80,7 +80,7 @@ h1 {
 
 /* hero-end*/
 
-/*main-content-start*/
+/*card-container-start*/
 
 .card{
    height: 160px; 
@@ -118,6 +118,9 @@ h1 {
 
 }
 
+/* card-container-end*/
+
+/*quote-section-start*/
 .quote-section {
     background-color: #E5E7EB;
     display: flex;
@@ -140,11 +143,48 @@ h1 {
 }
 
 .quote{
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .quote-author {
     align-items: flex-end;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 
 
 }
+
+/*quote-section-end*/
+
+/*call-to-action-start*/
+.call-to-action-container{
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 200px;
+    padding: 40px 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.call-to-action-content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+h3, .call-text {
+    color: #f9faf8;
+    margin: 0px;
+}
+ 
+.call-to-action-button {
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    padding: 5px 20px;
+    
+    
+}
+
+
+
+/*call-to-action-end*/
