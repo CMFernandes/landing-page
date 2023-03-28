@@ -1,19 +1,28 @@
 body {
     font-family: roboto, sans-serif;
+    margin:0;
+    padding:0;
+
 }
 
-/* header-start*/
-.header {
+.nav-bar {
     background-color:   #1F2937 ;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    
+    
 }
 
+.nav-logo{
+    margin-left: 200px;
+}
 
-.logo {
+.nav-right{
+    margin-right: 200px;
+    
+}
+#logo {
     font-size: 24px;
     color: #f9faf8;
 }
@@ -21,32 +30,27 @@ body {
 ul {
     display: flex;
     list-style: none;
-    margin: 0;
-    padding: 20px;
     gap: 16px
 }
 
-.header-links{
+.nav-links{
     text-decoration: none;
     color: white;
 }
 
-/* header-end*/
-
-
-/* hero-start*/
 
 .hero-container{
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 80px 80px 80px;
+    
 }
 
 .hero-content{
     display: flex;
     flex-direction: column;
+    margin-left: 200px;
 }
 
 h1 {
@@ -71,16 +75,15 @@ h1 {
 
 }
 .hero-img-container {
-    margin-left: 20px;
+    margin: 100px 200px 100px 0px;
+    
 }
 .hero-img {
-    width: 350px;
-    height: 200px;
+    width: 500px;
+    height: 250px;
 }
 
-/* hero-end*/
 
-/*card-container-start*/
 
 .card{
    height: 160px; 
@@ -118,17 +121,12 @@ h1 {
 
 }
 
-/* card-container-end*/
 
-/*quote-section-start*/
 .quote-section {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
-   
 
 }
 
@@ -142,9 +140,12 @@ h1 {
     width: 800px;
 }
 
+
 .quote{
     padding-top: 80px;
 }
+
+
 .quote-author {
     align-items: flex-end;
     padding-bottom: 80px;
@@ -152,9 +153,7 @@ h1 {
 
 }
 
-/*quote-section-end*/
 
-/*call-to-action-start*/
 .call-to-action-container{
     background-color: #3882F6;
     border-radius: 5px;
@@ -172,7 +171,7 @@ h1 {
 
 h3, .call-text {
     color: #f9faf8;
-    margin: 0px;
+    
 }
  
 .call-to-action-button {
@@ -183,16 +182,18 @@ h3, .call-text {
     padding: 5px 20px;
 }
 
-/*call-to-action-end*/
 
-/*footer-start*/
 
 .footer {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
-    color: #f9faf8;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    
 }
-/*footer-end*/
+
+.footer-text{
+    color: #f9faf8;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
