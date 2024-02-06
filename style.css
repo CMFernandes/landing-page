@@ -75,16 +75,19 @@ h1 {
 
 }
 .hero-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 100px 200px 100px 0px;
-    
-}
-.hero-img {
+    background-color: rgb(122, 122, 122);
     width: 500px;
     height: 250px;
 }
 
-
-
+.hero-img-container p{
+    color: white;
+    
+}
 .card{
    height: 160px; 
    width: 160px;
@@ -149,8 +152,6 @@ h1 {
 .quote-author {
     align-items: flex-end;
     padding-bottom: 80px;
-
-
 }
 
 
