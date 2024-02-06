@@ -67,6 +67,7 @@ h1 {
 
 .sign-up {
     background-color: #3882F6;
+    border: none;
     border-radius: 8px;
     padding: 10px 20px;
     flex-basis: 0;
